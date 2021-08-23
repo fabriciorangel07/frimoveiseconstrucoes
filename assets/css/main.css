@@ -2650,6 +2650,10 @@ input, select, textarea {
 				transform: translateX(0);
 			}
 
+			#footer3 {
+				margin-right: 0;
+			}
+
 	}
 
 /* Small */
@@ -2859,5 +2863,9 @@ input, select, textarea {
 			#footer .feature-list {
 				border: 0;
 				padding-top: 0;
+			}
+			
+			.footer4 {
+				margin-left: 0em;
 			}
 	}

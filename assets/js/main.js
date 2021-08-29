@@ -3,7 +3,7 @@
 	var	$window = $(window),
 		$body = $('body');
 
-	// Breakpoints.
+	// Quebra de telas
 		breakpoints({
 			xlarge:  [ '1281px',  '1680px' ],
 			large:   [ '981px',   '1280px' ],
@@ -11,7 +11,7 @@
 			small:   [ null,      '736px'  ]
 		});
 
-	// Play initial animations on page load.
+	// Quando animacao é iniciada
 		$window.on('load', function() {
 			window.setTimeout(function() {
 				$body.removeClass('is-preload');
@@ -28,7 +28,7 @@
 
 	// Nav.
 
-		// Title Bar.
+		// Titulo
 			$(
 				'<div id="titleBar">' +
 					'<a href="#navPanel" class="toggle"></a>' +
@@ -37,7 +37,7 @@
 			)
 				.appendTo($body);
 
-		// Panel.
+		// Painel.
 			$(
 				'<div id="navPanel">' +
 					'<nav>' +

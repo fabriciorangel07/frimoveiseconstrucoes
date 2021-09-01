@@ -38,7 +38,7 @@ blockquote, q {
 		content: '';
 		content: none;
 	}
-	icon
+	
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
@@ -78,22 +78,26 @@ input, select, textarea {
 
 	body, input, textarea, select {
 		font-family: 'Source Sans Pro', sans-serif;
-		font-weight: 400;
-		color: #919499;
+		color: #7e7f80;
 		font-size: 14pt;
 		line-height: 1em;
 		letter-spacing: 0.025em;
 	}
 
-	h1, h2, h3, h4, h5, h6 {
-		font-weight: 700;
-		color: #484d55;
-	}
-
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 			color: inherit;
 			text-decoration: none;
+			color: #fff;
+			font-weight: 700;
 		}
+			#logo1 {
+				color: black;
+				font-weight: 700;
+			}
+				#logo2 {
+					color: red;
+					font-weight: 700;
+				}
 
 	a {
 		-moz-transition: color .25s ease-in-out;
@@ -560,7 +564,7 @@ input, select, textarea {
 		-ms-transition: all .25s ease-in-out;
 		transition: all .25s ease-in-out;
 		display: inline-block;
-		background: #444;
+		background: #d96760;
 		text-align: center;
 		text-transform: uppercase;
 		font-weight: 700;
@@ -582,7 +586,7 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: #f98780;
+			background-color: #df4444;
 		}
 
 		input[type="button"].large,
@@ -599,7 +603,7 @@ input, select, textarea {
 		input[type="reset"].style1,
 		button.style1,
 		.button.style1 {
-			background: #e97770 url("images/overlay.png");
+			background: #d96760 url("images/overlay.png");
 			color: #fff;
 		}
 
@@ -608,7 +612,7 @@ input, select, textarea {
 			input[type="reset"].style1:hover,
 			button.style1:hover,
 			.button.style1:hover {
-				background-color: #f98780;
+				background-color: #df4444;
 			}
 
 			input[type="button"].style1:active,
@@ -616,7 +620,7 @@ input, select, textarea {
 			input[type="reset"].style1:active,
 			button.style1:active,
 			.button.style1:active {
-				background-color: #d96760;
+				background-color: #df4444;
 			}
 
 		input[type="button"].style2,
@@ -624,8 +628,8 @@ input, select, textarea {
 		input[type="reset"].style2,
 		button.style2,
 		.button.style2 {
-			background: none;
-			color: #606167;
+			background: #606167;
+			color: #fff;
 			box-shadow: inset 0px 0px 2px 0px #a0a1a7;
 		}
 
@@ -635,6 +639,7 @@ input, select, textarea {
 			button.style2:hover,
 			.button.style2:hover {
 				box-shadow: inset 0px 0px 2px 0px #606167;
+				background-color: #a0a1a7;
 			}
 
 			input[type="button"].style2:active,
@@ -644,32 +649,6 @@ input, select, textarea {
 			.button.style2:active {
 				box-shadow: inset 0px 0px 2px 0px #202127;
 			}
-
-		input[type="button"].style3,
-		input[type="submit"].style3,
-		input[type="reset"].style3,
-		button.style3,
-		.button.style3 {
-			background: #2f333b url("images/overlay.png");
-			color: #fff;
-		}
-
-			input[type="button"].style3:hover,
-			input[type="submit"].style3:hover,
-			input[type="reset"].style3:hover,
-			button.style3:hover,
-			.button.style3:hover {
-				background-color: #3f434b;
-			}
-
-			input[type="button"].style3:active,
-			input[type="submit"].style3:active,
-			input[type="reset"].style3:active,
-			button.style3:active,
-			.button.style3:active {
-				background-color: #1f232b;
-			}
-
 /* Lista */
 
 	ul {
@@ -775,9 +754,10 @@ input, select, textarea {
 		}
 
 		.feature-list h3 {
-			color: #e97770 !important;
+			color: #df4444  !important;
 			margin: -0.35em 0 0.35em 0.85em;
 			letter-spacing: 0.05em;
+			font-weight: 550;
 		}
 
 			.feature-list h3:before {
@@ -1010,11 +990,12 @@ input, select, textarea {
 	}
 
 		#logo h1 {
-			font-weight: 500;
+			font-weight: 600;
 			text-transform: uppercase;
 			color: #fff;
 			font-size: 1em;
-			letter-spacing: 0.25em;
+			letter-spacing: 0.30em;
+			transition: all .25s ease-in-out;
 		}
 
 		#logo p {
@@ -1144,7 +1125,6 @@ input, select, textarea {
 
 	#footer {
 		background: #282b34 url("images/overlay.png");
-		color: rgba(255, 255, 255, 0.5);
 		padding: 2em 0 4em 2em;
 		text-decoration: none;
 	}
@@ -1157,10 +1137,21 @@ input, select, textarea {
 		a:link, a:visited {
 			text-decoration: none
 			}
-		a:hover {
-			text-decoration: underline;
-			color: #eee
+
+			a:hover {
+				color: rgb(95, 90, 90);
+				-webkit-transition: all .25s ease-in-out;
+				transition: all .25s ease-in-out;
 			}
+
+				.social:hover {
+					color: #fff;
+					-moz-transition: all .25s ease-in-out;
+					-webkit-transition: all .25s ease-in-out;
+					-ms-transition: all .25s ease-in-out;
+					transition: all .25s ease-in-out;
+				}
+
 		a:active {
 			text-decoration: none
 			}

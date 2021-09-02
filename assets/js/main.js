@@ -5,8 +5,8 @@
 
 	// Quebra de telas
 		breakpoints({
-			xlarge:  [ '1281px',  '1680px' ],
-			large:   [ '981px',   '1280px' ],
+			xlarge:  [ '1241px',  '1680px' ],
+			large:   [ '981px',   '1240px' ],
 			medium:  [ '737px',   '980px'  ],
 			small:   [ null,      '736px'  ]
 		});

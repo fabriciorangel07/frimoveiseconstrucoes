@@ -177,7 +177,7 @@ input, select, textarea {
 /* Container */
 
 	.container {
-		margin: 0 auto;
+		margin: auto;
 		max-width: 100%;
 		width: 68em;
 	}
@@ -1081,7 +1081,7 @@ input, select, textarea {
 				}
 
 				.formulario > .col-12-medium {
-					width: 100%;
+					width: 75%;
 				}
 
 				.formulario > .off-12-medium {
@@ -1159,6 +1159,7 @@ input, select, textarea {
 				.formulario.gtr-150 {
 					margin-top: -75px;
 					margin-left: -75px;
+					justify-content: center;
 				}
 
 					.formulario.gtr-150 > * {
@@ -1404,6 +1405,7 @@ input, select, textarea {
 				.formulario.gtr-150 {
 					margin-top: -45px;
 					margin-left: -45px;
+					justify-content: center;
 				}
 
 					.formulario.gtr-150 > * {
@@ -1680,6 +1682,7 @@ input[type="reset"],
 	.botao.style1 {
 		background: #d96760 url("images/overlay.png");
 		color: #fff;
+		margin-bottom: 2em;
 	}
 
 		input[type="botao"].style1:hover,

@@ -387,11 +387,6 @@ input, select, textarea {
 
 /* Section/Article */
 
-	section,
-	article {
-		margin: 0 0 0 0;
-	}
-
 	header.style1 {
 		text-align: center;
 		padding: 1em 0 1em 0;
@@ -728,11 +723,9 @@ input, select, textarea {
 /* Feature List */
 
 	.feature-list {
-		max-width: 40em;
-		margin-left: 6em;
+		margin-left: 6	em;
 		margin-right: auto;
 		position: relative;
-		top: 0.5em;
 	}
 
 		.feature-list section {
@@ -1115,8 +1108,6 @@ input, select, textarea {
 
 	#footer {
 		background: #282b34 url("images/overlay.png");
-		padding: 2em 0 4em 2em;
-		text-decoration: none;
 	}
 
 		#footer h1, #footer h2, #footer h3, #footer h4, #footer h5, #footer h6, #footer strong, #footer b, #footer a{
@@ -1157,8 +1148,8 @@ input, select, textarea {
 		}
 
 		#footer header.style1 {
-			padding-bottom: 3em;
-			margin-bottom: 3em;
+			padding-bottom: 2em;
+			margin-bottom: 2em;
 			border-bottom: solid 1px rgba(255, 255, 255, 0.05);
 		}
 
@@ -1191,20 +1182,19 @@ input, select, textarea {
 			body, input, textarea, select {
 				font-size: 10pt;
 			}
-			
-				/* cabecalho */
 
-				.cabecalho {
-					padding: 2.3em 0 4em 0;
+				/* Footer */
+				#footer header.style1 {
+					padding: 2em 0 2em 6em;
+					border-bottom: solid 1px rgba(255, 255, 255, 0.05);
 				}
 
-					/* Footer */
-					#footer header.style1 {
-						padding: 2em 0 2em 6em;
-						border-bottom: solid 1px rgba(255, 255, 255, 0.05);
+					#footer {
+						padding: 2em 0 4em 2em;
+						text-decoration: none;
 					}
+			
 		}
-	}
 
 /* Tela larga */
 
@@ -1215,12 +1205,13 @@ input, select, textarea {
 			body, select {
 				font-size: 10pt;
 				line-height: 1.1em;
+				overflow-x: hidden;
 			}
 
 		/* cabecalho */
 
 			.cabecalho {
-				padding: 2.3em 0 4em 0;
+				padding: 2.5em 0 4em 0;
 			}
 
 			#page-cabecalho > section {
@@ -1243,6 +1234,7 @@ input, select, textarea {
 					padding: 2em 0 2em 6em;
 					border-bottom: solid 1px rgba(255, 255, 255, 0.05);
 				}
+			
 	}
 
 /* Tela media */
@@ -1309,7 +1301,7 @@ input, select, textarea {
 						font-size: 0.7em;
 					}
 	#footer {
-		padding: 1.98em 0 4em 2em;
+		padding: 2em 0 4em 2em;
 		text-decoration: none;
 	}
 

@@ -1605,7 +1605,7 @@ input, select, textarea {
 
 		.image.fit {
 			display: block;
-			width: 100%;
+			width: 50%;
 		}
 
 		.image.left {
@@ -1620,13 +1620,14 @@ input, select, textarea {
 
 			.image.centered img {
 				margin: 0 auto;
-				width: auto;
+				width: 50%;
 			}
 
 		.image.featured {
 			display: block;
-			width: 100%;
+			width: 75%;
 			margin: 0 0 2em 0;
+			margin-left: 12.5%;
 		}
 
 /* Botoes */
@@ -2115,22 +2116,22 @@ input[type="reset"],
 			font-size: 0.9em;
 		}
 			#logo1 {
-				color: black;
+				color: red;
 				font-weight: 700;
 			}
 				#logo1:hover {
 					-webkit-transition: all .25s ease-in-out;
 					transition: all .25s ease-in-out;
-					color: red;
+					color: white;
 				}
 					#logo2 {
-						color: red;
+						color: white;
 						font-weight: 700;
 					}
 						#logo2:hover {
 							-webkit-transition: all .25s ease-in-out;
 							transition: all .25s ease-in-out;
-							color: black;
+							color: red;
 						}
 
 /* Nav */

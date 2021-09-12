@@ -1242,21 +1242,21 @@ input, select, textarea {
 	#navPanel, #titleBar {
 		display: none;
 	}
-	@media screen and (max-height: 725.9px) {
+	@media screen and (max-height: 726px) {
 		#footer {
-			padding: 2em 0 3em 2em;
+			padding: 2em 0 4em 2em;
 			text-decoration: none;
 		}
 	}
 
-	@media screen and (max-height: 753px) and (min-height: 726px) {
+	@media screen and (max-height: 753px) {
 		.cabecalho {
 			position: relative;
 			padding: 3em 0 5.4em 0;
 		}
 	}
 
-	@media screen and (max-height: 800px) and (min-height: 753.2px) {
+	@media screen and (max-height: 800px) and (min-height: 753px) {
 		.cabecalho {
 			position: relative;
 			padding: 3em 0 6em 0;

@@ -844,51 +844,46 @@ input, select, textarea {
 
 /* cabecalho */
 
-	.cabecalho {
-		position: relative;
-		padding: 3em 0 4em 0;
+	.cabecalho .title {
+		position: absolute;
+		top: 0;
+		left: 50%;
+		text-align: center;
+		text-transform: uppercase;
+		font-weight: 600;
+		letter-spacing: 0.5em;
+		font-size: 0.9em;
+		width: 16em;
+		height: 2em;
+		top: -2em;
+		line-height: 3.0em;
+		margin-left: -9em;
+		padding-top: 0.2em;
 	}
 
-		.cabecalho .title {
-			position: absolute;
-			top: 0;
-			left: 50%;
-			text-align: center;
-			text-transform: uppercase;
-			font-weight: 600;
-			letter-spacing: 0.5em;
-			font-size: 0.9em;
-			width: 16em;
-			height: 2em;
-			top: -2em;
-			line-height: 3.0em;
-			margin-left: -9em;
-			padding-top: 0.2em;
+		.cabecalho .title:before {
+			content: '';
+			position: center;
+			bottom: -38px;
+			left: -35px;
+			width: 35px;
+			height: 38px;
+			background: url("images/shadow.png");
 		}
 
-			.cabecalho .title:before {
-				content: '';
-				position: center;
-				bottom: -38px;
-				left: -35px;
-				width: 35px;
-				height: 38px;
-				background: url("images/shadow.png");
-			}
-
-			.cabecalho .title:after {
-				-moz-transform: scaleX(-1);
-				-webkit-transform: scaleX(-1);
-				-ms-transform: scaleX(-1);
-				transform: scaleX(-1);
-				content: '';
-				position: center;
-				bottom: -38px;
-				right: -35px;
-				width: 35px;
-				height: 38px;
-				background: url("images/shadow.png");
-			}
+		.cabecalho .title:after {
+			-moz-transform: scaleX(-1);
+			-webkit-transform: scaleX(-1);
+			-ms-transform: scaleX(-1);
+			transform: scaleX(-1);
+			content: '';
+			position: center;
+			bottom: -38px;
+			right: -35px;
+			width: 35px;
+			height: 38px;
+			background: url("images/shadow.png");
+		}
 
 		.cabecalho.style1 {
 			background: #e97770 url("images/overlay.png");
@@ -1198,7 +1193,7 @@ input, select, textarea {
 
 /* Tela larga */
 
-	@media screen and (max-width: 1240px) {
+	@media screen and (max-width: 1240px) and (max-height: 754px) {
 
 		/* Basic */
 
@@ -1249,14 +1244,7 @@ input, select, textarea {
 		}
 	}
 
-	@media screen and (max-height: 757px) {
-		.cabecalho {
-			position: relative;
-			padding: 3em 0 5.4em 0;
-		}
-	}
-
-	@media screen and (max-height: 800px) and (min-height: 757px) {
+	@media screen and (max-height: 800px) {
 		.cabecalho {
 			position: relative;
 			padding: 3em 0 6em 0;

@@ -7,4 +7,4 @@ Realizado por: Fabrício Rangel de Sousa
 
 -----------------------------------------------------------------------------------------------------------
 
-Futuramente será mais responsiva e um prototipo do futuro site da imobiliario @FR IMOVEIS E CONSTRUÇÕES.
+Futuramente será mais responsiva e um prototipo do futuro site da imobiliario @FRIMOVEISECONSTRUÇÕES.

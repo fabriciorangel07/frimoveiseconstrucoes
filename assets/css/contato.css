@@ -1231,7 +1231,7 @@ input, select, textarea {
 		/* Footer */
 
 				#footer header.style1 {
-					padding: 2em 0 2em 6em;
+					padding: 2em 0 4em 6em;
 					border-bottom: solid 1px rgba(255, 255, 255, 0.05);
 				}
 			
@@ -1242,13 +1242,13 @@ input, select, textarea {
 	#navPanel, #titleBar {
 		display: none;
 	}
-
-	@media screen and (max-width: 980px) {
-
-		html, body {
-			width: 100%;
-			height: 100%;
+	@media screen and (max-height: 720px) {
+		#footer {
+			padding: 2em 0 3em 2em;
+			text-decoration: none;
 		}
+	}
+	@media screen and (max-width: 980px) {
 
 		/* Section/Article */
 

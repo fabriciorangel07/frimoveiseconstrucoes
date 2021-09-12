@@ -1299,6 +1299,9 @@ input, select, textarea {
 		padding: 2em 0 4em 2em;
 		text-decoration: none;
 	}
+		.footer_email {
+			padding-right: 60px;
+		}
 
 	}
 
@@ -1679,4 +1682,12 @@ input, select, textarea {
 				border: 0;
 				padding-top: 0;
 			}
+
+				.footer_email {
+					padding-right: 60px;
+				}
+					
+					.footer_tel {
+						padding-right: 125px;
+					}
 	}

@@ -1170,7 +1170,7 @@ input, select, textarea {
 
 /* Tela muito grande */
 
-	@media screen and (max-width: 2000px) {
+	@media screen and (max-width: 2000px) and (max-height: 760px) {
 
 		/* Basic */
 
@@ -1193,7 +1193,7 @@ input, select, textarea {
 
 /* Tela larga */
 
-	@media screen and (max-width: 1240px) and (max-height: 754px) {
+	@media screen and (max-width: 1240px) and (max-height: 760px) {
 
 		/* Basic */
 
@@ -1236,19 +1236,6 @@ input, select, textarea {
 
 	#navPanel, #titleBar {
 		display: none;
-	}
-	@media screen and (max-height: 726px) {
-		.cabecalho {
-			position: relative;
-			padding: 3em 0 5.4em 0;
-		}
-	}
-
-	@media screen and (max-height: 800px) {
-		.cabecalho {
-			position: relative;
-			padding: 3em 0 6em 0;
-		}
 	}
 
 	@media screen and (max-width: 980px) {

@@ -594,7 +594,7 @@ input, select, textarea {
 		input[type="reset"].style1,
 		button.style1,
 		.button.style1 {
-			background: #d96760 url("images/overlay.png");
+			background: #d96760 url("imagens/overlay.png");
 			color: #fff;
 		}
 
@@ -752,7 +752,7 @@ input, select, textarea {
 			.feature-list h3:before {
 				display: block;
 				color: #fff;
-				background: #2f333b url("images/overlay.png");
+				background: #2f333b url("imagens/overlay.png");
 				border-radius: 2em;
 				text-align: center;
 				width: 2em;
@@ -873,7 +873,7 @@ input, select, textarea {
 			left: -35px;
 			width: 35px;
 			height: 38px;
-			background: url("images/shadow.png");
+			background: url("imagens/shadow.png");
 		}
 
 		.cabecalho .title:after {
@@ -887,17 +887,17 @@ input, select, textarea {
 			right: -35px;
 			width: 35px;
 			height: 38px;
-			background: url("images/shadow.png");
+			background: url("imagens/shadow.png");
 		}
 
 		.cabecalho.style1 {
-			background: #e97770 url("images/overlay.png");
+			background: #e97770 url("imagens/overlay.png");
 			color: #eee;
 			color: rgba(255, 255, 255, 0.75);
 		}
 
 			.cabecalho.style1 .title {
-				background: #e97770 url("images/overlay.png");
+				background: #e97770 url("imagens/overlay.png");
 				color: #fff;
 			}
 
@@ -915,11 +915,11 @@ input, select, textarea {
 			}
 
 		.cabecalho.style3 {
-			background: #f3f3f3 url("images/overlay.png");
+			background: #f3f3f3 url("imagens/overlay.png");
 		}
 
 			.cabecalho.style3 .title {
-				background: #f3f3f3 url("images/overlay.png");
+				background: #f3f3f3 url("imagens/overlay.png");
 				color: #484d55;
 			}
 
@@ -944,7 +944,7 @@ input, select, textarea {
 		justify-content: center;
 		position: relative;
 		height: 9.5em;
-		background: url("../../images/banner.jpg") center center;
+		background: url("../../imagens/banner.jpg") center center;
 		background-size: cover;
 		padding: 0;
 	}
@@ -956,7 +956,7 @@ input, select, textarea {
 			left: 0;
 			width: 100%;
 			height: 100%;
-			background: url("images/overlay.png");
+			background: url("imagens/overlay.png");
 		}
 
 		.homepage #header {
@@ -1046,7 +1046,7 @@ input, select, textarea {
 				}
 
 	.dropotron {
-		background: #222835 url("images/overlay.png");
+		background: #222835 url("imagens/overlay.png");
 		background-color: rgba(44, 50, 63, 0.925);
 		padding: 1.25em 1em 1.25em 1em;
 		border-radius: 0.35em;
@@ -1107,7 +1107,7 @@ input, select, textarea {
 /* Footer */
 
 	#footer {
-		background: #282b34 url("images/overlay.png");
+		background: #282b34 url("imagens/overlay.png");
 	}
 
 		#footer h1, #footer h2, #footer h3, #footer h4, #footer h5, #footer h6, #footer strong, #footer b, #footer a{
@@ -1143,7 +1143,7 @@ input, select, textarea {
 		}
 
 		#footer .title {
-			background: #282b34 url("images/overlay.png");
+			background: #282b34 url("imagens/overlay.png");
 			color: #eee;		
 		}
 
@@ -1170,7 +1170,7 @@ input, select, textarea {
 			}
 
 			#footer .feature-list h3:before {
-				background: #3d4249 url("images/overlay.png");
+				background: #3d4249 url("imagens/overlay.png");
 			}
 
 /* Tela muito grande */
@@ -1421,7 +1421,7 @@ input, select, textarea {
 				top: 0;
 				width: 275px;
 				z-index: 10002;
-				background: #242730 url("images/overlay.png");
+				background: #242730 url("imagens/overlay.png");
 				box-shadow: inset -3px 0px 4px 0px rgba(0, 0, 0, 0.1);
 			}
 

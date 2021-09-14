@@ -1181,6 +1181,7 @@ input, select, textarea {
 
 			body, input, textarea, select {
 				font-size: 10pt;
+				line-height: 1.1em;
 			}
 
 				/* Footer */
@@ -1190,8 +1191,10 @@ input, select, textarea {
 				}
 
 					#footer {
-						padding: 2em 0 4em 2em;
 						text-decoration: none;
+						position: fixed;
+						width: 100%;
+						padding-top: 2.5em;
 					}
 			
 		}
@@ -1210,10 +1213,6 @@ input, select, textarea {
 
 		/* cabecalho */
 
-			.cabecalho {
-				padding: 2.9em 0 6em 0;
-			}
-
 			#page-cabecalho > section {
 				margin-bottom: 0em;
 			}
@@ -1231,8 +1230,14 @@ input, select, textarea {
 		/* Footer */
 
 				#footer header.style1 {
-					padding: 2em 0 4em 6em;
 					border-bottom: solid 1px rgba(255, 255, 255, 0.05);
+				}
+
+				#footer {
+					text-decoration: none;
+					position: fixed;
+					width: 100%;
+					padding-top: 2.5em;
 				}
 			
 	}
@@ -1295,17 +1300,14 @@ input, select, textarea {
 						display: block;
 						font-size: 0.7em;
 					}
-	#footer {
-		padding: 2em 0 4em 2em;
-		text-decoration: none;
-	}
-		.footer_email {
-			padding-right: 60px;
-		}
+						#footer {
+							text-decoration: none;
+							position: fixed;
+							width: 100%;
+							padding-top: 2.5em;
+						}
 
-	}
-
-		@media screen and (max-width: 980px) and (min-width: 737px) {
+		@media screen and (max-width: 980px) and (min-width: 833px) {
 
 				#footer .feature-list > .formulario > :nth-child(2) > section {
 					border-top: 0;
@@ -1497,7 +1499,7 @@ input, select, textarea {
 
 /* Tela Pequena */
 
-	@media screen and (max-width: 736px) {
+	@media screen and (max-width: 833px) {
 
 		/* Basic */
 
@@ -1683,11 +1685,22 @@ input, select, textarea {
 				padding-top: 0;
 			}
 
+			#footer {
+				position: relative;
+				padding-left: 50px;
+			}
+
 				.footer_email {
 					padding-right: 60px;
+					padding-top: 0;
 				}
-					
-					.footer_tel {
-						padding-right: 125px;
+
+					.footer_social {
+						padding-top: 0;
 					}
+					
+						.footer_tel {
+							padding-right: 125px;
+							padding-top: 0;
+						}
 	}

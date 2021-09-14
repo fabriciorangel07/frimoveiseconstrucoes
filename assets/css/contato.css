@@ -1208,6 +1208,7 @@ input, select, textarea {
 						position: fixed;
 						width: 100%;
 						padding-top: 2em;
+						padding-left: 240px;
 					}
 			
 		}
@@ -1251,6 +1252,7 @@ input, select, textarea {
 					position: fixed;
 					width: 100%;
 					padding-top: 2em;
+					padding-left: 120px;
 				}
 			
 	}
@@ -1318,6 +1320,7 @@ input, select, textarea {
 							position: fixed;
 							width: 100%;
 							padding-top: 2em;
+							padding-left: 0px;
 						}
 
 		@media screen and (max-width: 980px) and (min-width: 833px) {

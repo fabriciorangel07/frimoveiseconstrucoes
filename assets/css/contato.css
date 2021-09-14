@@ -487,7 +487,7 @@ input, select, textarea {
 	}
 
 	form textarea {
-		min-height: 6.4em;
+		min-height: 5em;
 	}
 
 	form ul.acoes {
@@ -859,7 +859,7 @@ input, select, textarea {
 
 .cabecalho {
 	position: relative;
-	padding: 3.4em 0 4.5em 0;
+	padding: 4em 0 4em 0;
 }
 
 	.cabecalho .title {
@@ -920,6 +920,7 @@ input, select, textarea {
 
 		.cabecalho.style2 {
 			background: #fff;
+			padding-bottom: 3em;
 		}
 
 			.cabecalho.style2 .title {

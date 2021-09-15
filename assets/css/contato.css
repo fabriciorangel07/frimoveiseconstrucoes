@@ -1703,11 +1703,11 @@ input, select, textarea {
 			}
 
 			#footer {
-				position: relative;
+				position: absolute;
 				padding-left: 50px;
 				padding-bottom: 30px;
 				padding-top: 30px;
-				margin-top: 90px;
+				margin-top: 130px;
 			}
 
 				.footer_email {
